@@ -17,6 +17,7 @@
 		C084BFFE28A257B2008EF4F8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084BFFD28A257B2008EF4F8 /* MemoStore.swift */; };
 		C084C00128A25DA4008EF4F8 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084C00028A25DA4008EF4F8 /* MemoCell.swift */; };
 		C084C00328A25E1B008EF4F8 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084C00228A25E1B008EF4F8 /* ComposeView.swift */; };
+		C084C00528A26027008EF4F8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084C00428A26027008EF4F8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C084BFFD28A257B2008EF4F8 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		C084C00028A25DA4008EF4F8 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
 		C084C00228A25E1B008EF4F8 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		C084C00428A26027008EF4F8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				C084C00028A25DA4008EF4F8 /* MemoCell.swift */,
 				C084BFF728A255F7008EF4F8 /* MainListView.swift */,
 				C084C00228A25E1B008EF4F8 /* ComposeView.swift */,
+				C084C00428A26027008EF4F8 /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C084C00128A25DA4008EF4F8 /* MemoCell.swift in Sources */,
+				C084C00528A26027008EF4F8 /* DetailView.swift in Sources */,
 				C084BFEE28A25597008EF4F8 /* Persistence.swift in Sources */,
 				C084BFFE28A257B2008EF4F8 /* MemoStore.swift in Sources */,
 				C084BFF828A255F7008EF4F8 /* MainListView.swift in Sources */,
