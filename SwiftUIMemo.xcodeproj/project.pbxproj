@@ -16,6 +16,7 @@
 		C084BFFC28A256E3008EF4F8 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084BFFB28A256E3008EF4F8 /* Memo.swift */; };
 		C084BFFE28A257B2008EF4F8 /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084BFFD28A257B2008EF4F8 /* MemoStore.swift */; };
 		C084C00128A25DA4008EF4F8 /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084C00028A25DA4008EF4F8 /* MemoCell.swift */; };
+		C084C00328A25E1B008EF4F8 /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084C00228A25E1B008EF4F8 /* ComposeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		C084BFFB28A256E3008EF4F8 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
 		C084BFFD28A257B2008EF4F8 /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 		C084C00028A25DA4008EF4F8 /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		C084C00228A25E1B008EF4F8 /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,6 @@
 				C084BFFA28A25627008EF4F8 /* Memory */,
 				C084BFF928A2561E008EF4F8 /* CoreData */,
 				C084BFE428A25592008EF4F8 /* SwiftUIMemoApp.swift */,
-				C084BFF728A255F7008EF4F8 /* MainListView.swift */,
 				C084BFE828A25597008EF4F8 /* Assets.xcassets */,
 				C084BFEA28A25597008EF4F8 /* Preview Content */,
 			);
@@ -102,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				C084C00028A25DA4008EF4F8 /* MemoCell.swift */,
+				C084BFF728A255F7008EF4F8 /* MainListView.swift */,
+				C084C00228A25E1B008EF4F8 /* ComposeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				C084BFFE28A257B2008EF4F8 /* MemoStore.swift in Sources */,
 				C084BFF828A255F7008EF4F8 /* MainListView.swift in Sources */,
 				C084BFF128A25597008EF4F8 /* SwiftUIMemo.xcdatamodeld in Sources */,
+				C084C00328A25E1B008EF4F8 /* ComposeView.swift in Sources */,
 				C084BFE528A25592008EF4F8 /* SwiftUIMemoApp.swift in Sources */,
 				C084BFFC28A256E3008EF4F8 /* Memo.swift in Sources */,
 			);
