@@ -13,12 +13,16 @@ struct MainListView: View {
     
     var body: some View {
         NavigationView {
-            List(store.list) { memo in
-                NavigationLink {
-                    DetailView(memo: memo)
-                } label: {
-                    MemoCell(memo: memo)
+            List {
+                ForEach(store.list) { memo in
+                    NavigationLink {
+                        DetailView(memo: memo)
+                    } label: {
+                        MemoCell(memo: memo)
+                    }
                 }
+                .onDelete(perform: store.delete)
+                
             }
             .navigationTitle("Memo")
             .toolbar {
